@@ -1,0 +1,9 @@
+spring.jpa:
+  hibernate.ddl-auto: none
+  show-sql: true
+
+spring.datasource:
+  platform: h2
+  url: jdbc:h2:mem:product-wishlist-demo
+
+spring.h2.console.enabled: true
